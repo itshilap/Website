@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+width: auto;
+height: 100%;
+/*background-color: #acac;*/
+padding: 30px 250px;
+}
+
+.header {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: #aaa;*/
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500, bold;
+  font-size: 16px;
+  color: #101049;
+  text-decoration: none;
+
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+li, a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500, bold;
+  font-size: 16px;
+  color: #101049;
+  text-decoration: none;
+}
+
+#portfolio {
+  border-bottom: 2px solid #101049;
+  padding-top: 5px;
+}
+
+h1 {
+  padding-top: 30px;
+  font-family: "Playfair Display", serif;
+  font-weight: 800, bold;
+  font-size: 50px;
+  color: #101049;
+  text-decoration: none;
+}
+
+h2 {
+ font-size: 22px;
+ width: 60%;
+ color: #101049;
+ font-family: "Roboto", serif;
+ font-weight: normal;
+}
+
+/* FOOTER */
+.footer-content {
+  width: auto;
+background-color: #101049;
+margin-bottom: 0;
+padding: 0px;
+overflow: hidden;
+}
+
+h4 {
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 250px;
+  color: #fff;
+  font-family: "Roboto", serif;
+  font-weight: normal;
+  /*border: 5px solid #ccc;*/
+}
